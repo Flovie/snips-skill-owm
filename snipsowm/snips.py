@@ -205,7 +205,7 @@ mappings = {
     },
     SnipsWeatherConditions.SUNSHADE: {
         'fr_FR': [u'parasol'],
-        'en_US': [u'sunshade']
+        'en_US': [u'sunshade'],
 		'de_DE': [u'Sonnenschirm']
     },
     SnipsWeatherConditions.PARASOL: {
