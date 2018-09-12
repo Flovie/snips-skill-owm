@@ -111,7 +111,7 @@ mappings = {
     }, SnipsWeatherConditions.DEPRESSION: {
         'fr_FR': [u'dépression'],
         'en_US': [u'depression'],
-		'de_DE': [u'Tief']
+		'de_DE': [u'Tiefdruck']
     },
     SnipsWeatherConditions.STORM: {
         'fr_FR': [u'tempête'],
@@ -162,7 +162,8 @@ mappings = {
         'fr_FR': [u'humidité'],
         'en_US': [u'humidity'],
 		'de_DE': [u'Luftfeuchte']
-    }, SnipsWeatherConditions.SNOWSTORM: {
+    }, 
+	SnipsWeatherConditions.SNOWSTORM: {
         'fr_FR': [u'tempête de neige'],
         'en_US': [u'snowstorm'],
 		'de_DE': [u'Schneesturm']
@@ -175,17 +176,17 @@ mappings = {
     SnipsWeatherConditions.TRENCH_COAT: {
         'fr_FR': [u'trench'],
         'en_US': [u'trench coat'],
-		'de_DE': [u'Regenmantel', u'Mantel']
+		'de_DE': [u'Mantel']
     },
     SnipsWeatherConditions.PARKA: {
         'fr_FR': [u'parka'],
         'en_US': [u'parka'],
-		'de_DE': [u'Anorak', u'Parka']
+		'de_DE': [u'Anorak']
     },
     SnipsWeatherConditions.CARDIGAN: {
         'fr_FR': [u'cardigan'],
         'en_US': [u'cardigan'],
-		'de_DE': [u'Strickjacke', u'Cardigan']
+		'de_DE': [u'Strickjacke']
     },
     SnipsWeatherConditions.SUMMER_CLOTHING: {
         'fr_FR': [u''],

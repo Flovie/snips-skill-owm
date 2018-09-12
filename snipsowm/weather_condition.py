@@ -19,7 +19,7 @@ class WeatherConditionDescriptor(object):
         WeatherConditions.THUNDERSTORM: {
             "en_US": ["Thunderstorms are expected", "expect thunderstorms"],
             "fr_FR": ["de l'orage et des éclair sont prévus"],
-			"de_DE": ["Es werden Gewitter erwartet"]
+			"de_DE": ["Es werden Gewitter erwartet","Gewitter sind wahrscheinlich"]
         },
         WeatherConditions.DRIZZLE: {
             "en_US": ["drizzle are expected", "expect drizzle"],
