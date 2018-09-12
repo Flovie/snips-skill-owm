@@ -18,47 +18,58 @@ class WeatherConditionDescriptor(object):
     descriptions = {
         WeatherConditions.THUNDERSTORM: {
             "en_US": ["Thunderstorms are expected", "expect thunderstorms"],
-            "fr_FR": ["de l'orage et des éclair sont prévus"]
+            "fr_FR": ["de l'orage et des éclair sont prévus"],
+			"de_DE": ["Es werden Gewitter erwartet"]
         },
         WeatherConditions.DRIZZLE: {
             "en_US": ["drizzle are expected", "expect drizzle"],
             "fr_FR": ["prévoir de la bruine"],
+			"de_DE": ["Es wird nieseln", "Es wird Nieselregen erwartet"]
         },
         WeatherConditions.RAIN: {
             "en_US": ["rain is expected", "it's going to be rainy", "expect rain"],
             "fr_FR": ["il va pleuvoir", "il pleuvra", "le temps sera pluvieux"],
+			"de_DE": ["Es wird regnen", "Erwarte Regen", "Es wird Regen erwartet"]
         },
         WeatherConditions.SNOW: {
             "en_US": ["snow is expected", "it's going to snow", "expect snow"],
             "fr_FR": ["il neigera", "il va neiger", "le temps sera neigeux"],
+			"de_DE": ["Es wird schneien", "Es wird Schnee erwartet", "Schnee ist wahrscheinlich"]
         },
         WeatherConditions.FOG: {
             "en_US": ["fog is expected", "it's going to be foggy", "expect fog"],
             "fr_FR": ["Il y aura du brouillard"],
+			"de_DE": ["Es wird neblig", "Nebel ist wahrscheinlich"]
         },
         WeatherConditions.SUN: {
             "en_US": ["sun is expected", "it's going to be sunny", "the sun will shine"],
             "fr_FR": ["le temps sera ensoleillé"],
+			"de_DE": ["Es wird sonnig"]
         },
         WeatherConditions.CLOUDS: {
             "en_US": ["it's going to be cloudy", "expect clouds"],
             "fr_FR": ["le temps sera nuageux"],
+			"de_DE": ["Es wird wolkig"]
         },
         WeatherConditions.STORM: {
             "en_US": ["storms are expected", "it's going to be stormy", "expect storms"],
             "fr_FR": ["il y aura de l'orage"],
+			"de_DE": ["Es wird stürmig", "Starker Wind ist wahrscheinlich"]
         },
         WeatherConditions.HUMID: {
             "en_US": ["humidity is expected", "it's going to be humid"],
             "fr_FR": ["le temps sera humide"],
+			"de_DE": ["Es wird schwül"]
         },
         WeatherConditions.WIND: {
             "en_US": ["wind is expected", "it's going to be windy", "expect wind"],
             "fr_FR": ["s'attendre à du vent"],
+			"de_DE": ["Es wird windig"]
         },
         WeatherConditions.UNKNOWN: {
             "en_US": ["I don't know how to describe the weather"],
             "fr_FR": ["Je ne peux pas décrire la météo"],
+			"de_DE": ["Ich weiß nicht, wie ich das Wetter beschreiben sollte"]
         },
     }
 
